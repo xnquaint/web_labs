@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_table{
+    width: 99vw;
+}
+#header_table{
+    padding: 1%;
+    background-color: gray;
+    width: 100%;
+    border: solid 3px #0F7391;
+    min-height: 10em;
+}
+#header_sign{
+    width: 19%;
+    text-align: center;
+}
+#header_sign h3{
+    margin: auto;    
+    width: 70%;
+    border: 5px solid black;
+    color: black;
+}
+#header_text{
+    width: 70%;
+    padding-right: 3%;
+    margin: auto;
+    color: white;
+    margin-left: 0;
+}
+#header_text h2{
+    font-size: 2em;
+    text-align: justify;
+}
+#main_blocks{
+    width: 100%;
+}
+#main_aside{
+    width: 100%;
+}
+#block2{
+    width: 25%;
+    background-color: #CCCCCC;
+    padding: 1%;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    color: black;
+    border: solid 3px #0F7391;
+  
+}
+#block2 p{
+    margin-top: 0;
+}
+#block3{
+    width: 75%;
+    background-color: #fff;
+    font-size: 2em;
+    padding: 2%;
+    word-wrap: break-word;
+    text-align: justify;
+    color: black;
+}
+#main_bottom_text{
+    background-color: rgb(132, 132, 151);
+    border: solid 3px #0F7391;
+}
+#main_bottom_text p{
+    text-align:justify;
+    font-size: 1em;
+    color: white;
+    padding: 1%;
+    line-height: 20px;
+}
+#main_aside_text{
+    background-color: #CCCCCC;
+    padding-left: 3%;
+    padding-top: 3%;
+    border: solid 3px #0F7391;
+    text-align: justify;
+}
+#main_aside_text a{
+    color: rgb(175, 61, 61);
+    font-size: 3em;
+    text-align: left;   
+}
+#footer_sign{
+    text-align: center;
+    width: 20%;
+}
+#footer_table{
+    padding: 1%;
+    width: 100%;
+    background-color: rgb(134, 114, 114);
+    border: solid 3px #0F7391;
+}
+#footer_sign h3{
+    border: 5px solid black;
+    color: black;
+    width: 70%;
+    margin: auto;
+}
+#footer_text{
+    width: 70%;
+    padding-right: 3%;
+    margin: auto;
+    color: white;
+    margin-left: 0;
+}
+#footer_text h1{
+    margin: auto;
+    color: white;
+    font-size: 2.5em;
+    text-align: justify;
+    margin-left: 0;
+    margin-right: 3%;
+    line-height: 40px;
+}
